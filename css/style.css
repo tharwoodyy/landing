@@ -1,0 +1,36 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Muli:400,700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/button.css');
+@import url('components/container.css');
+@import url('components/cards.css');
+@import url('components/card.css');
+@import url('components/img.css');
+@import url('components/links.css');
+@import url('components/footer.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Muli;
+}
+
+h1, h2, h3, h4 {
+  font-family: Lato;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url('https://images.unsplash.com/photo-1525183995014-bd94c0750cd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-size: cover;
+  /*background-size: no-repeat;*/
+  background-position: 70% 55%;
+  padding: 200px 0;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+/*Button CSS*/
+.btn-primary {
+  display: inline-block;
+  background-color: white;
+  color: #386663;
+  border: 1px solid lightgrey;
+  border-radius: 40px;
+  padding: 15px 25px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.btn-primary:hover {
+  background-color: #386663;
+  color: white;
+}

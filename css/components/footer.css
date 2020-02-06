@@ -1,0 +1,11 @@
+/*footer CSS*/
+.footer {
+  background-color: #386663;
+  text-align: center;
+  padding: 60px;
+}
+
+.footer a {
+  color: #D7D4CF;
+  font-size: 30px;
+}
